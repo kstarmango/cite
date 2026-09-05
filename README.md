@@ -1,3 +1,13 @@
+---
+title: CITE
+emoji: 📑
+colorFrom: indigo
+colorTo: gray
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # CITE — a grounded, evaluated RAG assistant
 
 **CITE** answers questions from a documentation corpus with **grounded citations**,

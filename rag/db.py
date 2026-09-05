@@ -15,6 +15,8 @@ def connect():
         dbname=os.getenv("DB_NAME", "ragdb"),
         user=os.getenv("DB_USER", "postgres"),
         password=os.getenv("DB_PASSWORD", "ragpass"),
+        # 매니지드 Postgres(Neon 등)는 require 필요. 로컬은 prefer로 동작.
+        sslmode=os.getenv("DB_SSLMODE", "prefer"),
     )
     register_vector(conn)  # pgvector <-> numpy 자동 변환 등록
     return conn

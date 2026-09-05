@@ -1,4 +1,4 @@
-﻿annotated-doc==0.0.4
+annotated-doc==0.0.4
 annotated-types==0.8.0
 anyio==4.14.2
 beautifulsoup4==4.15.0
@@ -50,4 +50,3 @@ urllib3==2.7.0
 uvicorn==0.51.0
 watchfiles==1.2.0
 websockets==16.1.1
-win32_setctime==1.2.0
