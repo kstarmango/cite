@@ -16,3 +16,6 @@ data/
 .DS_Store
 .vscode/
 .idea/
+
+# HF write token (로컬 전용, 푸시 후 삭제)
+.hf_token
